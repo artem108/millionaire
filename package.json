@@ -1,7 +1,7 @@
 {
   "name": "millionaire",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homapage": "https://artem108.github.io/millionaire/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
