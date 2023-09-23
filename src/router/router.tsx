@@ -6,7 +6,7 @@ import GameOver from '../components/GameOver';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: 'millionaire/',
     element: <GameStart />,
   },
   {
@@ -17,6 +17,6 @@ const router = createBrowserRouter([
     path: '/gameover/:totalreward',
     element: <GameOver />,
   },
-], { basename: '/' });
+], { basename: 'millionaire/' });
 
 export default router;
