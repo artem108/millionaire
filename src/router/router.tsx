@@ -1,12 +1,12 @@
 import React from 'react';
-import { createHashRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 import GameStart from '../components/GameStart';
 import Game from '../components/Game/Game';
 import GameOver from '../components/GameOver';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: '/*',
+    path: '/',
     element: <GameStart />,
   },
   {
@@ -17,6 +17,6 @@ const router = createHashRouter([
     path: '/gameover/:totalreward',
     element: <GameOver />,
   },
-], { basename: '/millionaire' });
+], { basename: process.env.PUBLIC_URL });
 
 export default router;
