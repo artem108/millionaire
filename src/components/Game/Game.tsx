@@ -42,6 +42,7 @@ const Game = () => {
             question={curretnQuestion}
             chooseAnswerHandler={chooseAnswerHandler}
           />
+          text for test
           <RevardsSection
             rewards={rewards}
             currentReward={currentReward}
