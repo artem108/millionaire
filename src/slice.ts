@@ -26,11 +26,17 @@ export const quizSlice = createSlice({
       error: null,
     }),
     checkAnswer: (state) => state,
-    // nextPage: (state) => [...state],
+    getQuizQuestionsFail: (state, action: PayloadAction<string>) => ({
+      ...state,
+      loading: false,
+      error: action.payload.massage,
+    }),
   },
 });
 
-export const { getQuizQuestionsStart, getQuizQuestionsSuccess, checkAnswer } = quizSlice.actions;
+export const {
+  getQuizQuestionsStart, getQuizQuestionsSuccess, checkAnswer, getQuizQuestionsFail,
+} = quizSlice.actions;
 
 export default quizSlice.reducer;
 
@@ -39,7 +45,7 @@ export const fetchQuestions = () => async (dispatch: Dispatch) => {
     dispatch(getQuizQuestionsStart());
     const data = await getQuizQuestionsFromJSON();
     dispatch(getQuizQuestionsSuccess(data));
-  } catch (err) {
-    console.error(err);
+  } catch (err: any) {
+    dispatch(getQuizQuestionsFail(err?.massage || 'Something whent wrong:('));
   }
 };
