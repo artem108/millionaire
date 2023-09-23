@@ -17,6 +17,6 @@ const router = createBrowserRouter([
     path: '/gameover/:totalreward',
     element: <GameOver />,
   },
-], { basename: 'millionaire/' });
+], { basename: process.env.PUBLIC_URL });
 
 export default router;
