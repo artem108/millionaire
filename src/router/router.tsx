@@ -17,6 +17,6 @@ const router = createHashRouter([
     path: '/gameover/:totalreward',
     element: <GameOver />,
   },
-], { basename: process.env.PUBLIC_URL });
+], { basename: '/millionaire' });
 
 export default router;
