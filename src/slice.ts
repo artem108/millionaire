@@ -29,7 +29,7 @@ export const quizSlice = createSlice({
     getQuizQuestionsFail: (state, action: PayloadAction<string>) => ({
       ...state,
       loading: false,
-      error: action.payload.massage,
+      error: action.payload,
     }),
   },
 });
