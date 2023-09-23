@@ -5,6 +5,9 @@
     },
     "extends": ["airbnb", "airbnb-typescript"],
     "overrides": [
+       {
+        "files": [ "src/**/*.ts[x]" ]
+       }
     ],
     "parserOptions": {
         "project": "./tsconfig.json"
