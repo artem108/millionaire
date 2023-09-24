@@ -1,6 +1,6 @@
 {
   "name": "millionaire",
-  "homapage": "https://artem108.github.io/millionaire",
+  "homepage": "https://artem108.github.io/millionaire",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -6,15 +6,15 @@ import GameOver from '../components/GameOver';
 
 const router = createBrowserRouter([
   {
-    path: '/millionaire/',
+    path: '/',
     element: <GameStart />,
   },
   {
-    path: '/millionaire/game/:id',
+    path: '/game/:id',
     element: <Game />,
   },
   {
-    path: '/millionaire/gameover/:totalreward',
+    path: '/gameover/:totalreward',
     element: <GameOver />,
   },
 ], { basename: 'millionaire' });
