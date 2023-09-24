@@ -44,6 +44,7 @@ depends on your needs.
 ## CI/CD
     This repo automatically on each push to the master brunch run all pipelines specified 
     in the `.github/workflows/node.js.yaml` file and after that deploy changes to the gh-pages
+    You can check Actions tab in github repo for that.
 
 ## What can be improoved 
 1. Writer more tests(don't have enough time).
