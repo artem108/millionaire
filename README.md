@@ -15,28 +15,28 @@
 
 ### `npm start`
 
-Tish command will run the app in the development mode.
+    Tish command will run the app in the development mode.
 
 ## Or app can be aviable online at https://artem108.github.io/millionaire/#
 
 ## Aviable scripts 
 
 ### `npm lint`
-Run eslint in src folder
+    Run eslint in src folder
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+    Launches the test runner in the interactive watch mode.\
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+    Builds the app for production to the `build` folder.\
 
 
 ## For configure questions and answers
 
-Go to `./src/gameConfig/gameConfig.json` file and modify `question`, `answers`, `answer`, `rewards`
-depends on your needs.
+    Go to `./src/gameConfig/gameConfig.json` file and modify `question`, `answers`, `answer`, `rewards`
+    depends on your needs.
 
 ## Pre-commits hooks
     Also on each commit will run eslint and pretier and check errors
