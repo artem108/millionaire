@@ -50,4 +50,5 @@ depends on your needs.
 2. Make tests on ts(don't have enough time).
 3. Make by design answers borders in the quiz.
 4. Make disgn more responsive add some styles for tablets.
-5. Add more rools for prettier and replace --check to --write on pre-commit hook.
+5. Deal with prettier(out of time just commited part of the code)
+6. Add more rools for prettier and replace --check to --write on pre-commit hook.
