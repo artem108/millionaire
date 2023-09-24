@@ -1,4 +1,4 @@
-@use "../../_variables" as v;
+@use "../../generalStyles/_variables" as v;
 
 .gameContainer {
     width: 100%;
@@ -26,10 +26,18 @@
             display: inline-block;
             background: #fff;
             font-size: 20px;
+            border: 1px solid v.$color-Black40;
+            border-radius: 5px;
 
             .orangeOptionText {
                 margin: 0 20px;
                 color: v.$color-orange100;
+            }
+
+            button {
+                width: 85%;
+                height: 70px;
+                text-align: start;
             }
         }
         //:)
@@ -103,9 +111,16 @@
     }
 
     .burgerButton {
+        width: 30px;
+        height: 25px;
         position: absolute;
-        background: #fff;
-        right: 0;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+        background-color: #fff;
+        background-image: url('../../images/burger.png');
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .quizContainer {

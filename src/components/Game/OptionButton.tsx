@@ -1,7 +1,8 @@
 import React from 'react';
+import { OptionButtonProps } from '../../interfaces';
 
-const OptionButton = ({ option, index, chooseAnswerHandler }: any) => (
-  <div className="optionButton" key={index}>
+const OptionButton = ({ option, chooseAnswerHandler }: OptionButtonProps) => (
+  <div className="optionButton greyBorder">
     <span className="orangeOptionText">A</span>
     <button
       type="button"

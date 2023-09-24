@@ -1,15 +1,16 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { GeneralState } from '../interfaces';
 import ContainerWithSubmitButton from '../sharedComponents/ContainerWithSubmitButton';
 
 const GameOver = () => {
-  const { totalreward } = useParams();
+  const { totalReward } = useSelector((state: GeneralState) => state.quiz);
   return (
     <ContainerWithSubmitButton
-      mainText={`$${totalreward} earned`}
+      mainText={`$${totalReward} earned`}
       subText="Total score"
       buttonText="Try again"
-      route="/game/1"
+      route="/"
     />
   );
 };

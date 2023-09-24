@@ -4,71 +4,61 @@
         "id": 1,
         "question": "What is the capital of France?",
         "options": ["London", "Berlin", "Madrid", "Paris"],
-        "answer": ["Paris"],
-        "reward": "$100"
+        "answer": ["Paris"]
     },
     {
         "id": 2,
         "question": "Which planet is known as the 'Red Planet'?",
         "options": ["Venus", "Mars", "Jupiter", "Neptune"],
-        "answer": ["Mars"],
-        "reward": "$200"
+        "answer": ["Mars"]
     },
     {
         "id": 3,
         "question": "What is the largest mammal in the world?",
         "options": ["Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
-        "answer": ["Blue Whale"],
-        "reward": "$300"
+        "answer": ["Blue Whale"]
     },
     {
         "id": 4,
         "question": "Who wrote the play 'Romeo and Juliet'?",
         "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
-        "answer": ["William Shakespeare"],
-        "reward": "$500"
+        "answer": ["William Shakespeare"]
     },
     {
         "id": 5,
         "question": "Which gas do plants absorb from the atmosphere?",
         "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
-        "answer": ["Carbon Dioxide"],
-        "reward": "$1,000"
+        "answer": ["Carbon Dioxide"]
     },
     {
         "id": 6,
         "question": "What is the largest organ in the human body?",
         "options": ["Heart", "Brain", "Liver", "Skin"],
-        "answer": ["Skin"],
-        "reward": "$2,000"
+        "answer": ["Skin"]
     },
     {
         "id": 7,
         "question": "Which country is famous for the Great Wall of China?",
-        "options": ["Japan", "India", "China", "Russia"],
-        "answer": ["China"],
-        "reward": "$4,000"
+        "options": ["Japan", "India", "China", "Ukraine"],
+        "answer": ["China"]
     },
     {
         "id": 8,
         "question": "Who was the first person to set foot on the moon?",
         "options": ["John F. Kennedy", "Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin"],
-        "answer": ["Neil Armstrong"],
-        "reward": "$8,000"
+        "answer": ["Neil Armstrong"]
     },
     {
         "id": 9,
         "question": "Which gas do plants release during photosynthesis?",
         "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
-        "answer": ["Oxygen"],
-        "reward": "$16,000"
+        "answer": ["Oxygen"]
     },
     {
         "id": 10,
         "question": "In which year did the Titanic sink?",
         "options": ["1912", "1921", "1905", "1930"],
-        "answer": ["1912"],
-        "reward": "$32,000"
+        "answer": ["1912"]
     }
 ],
 "rewards": [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000]

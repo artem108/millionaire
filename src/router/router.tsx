@@ -14,7 +14,7 @@ const router = createHashRouter([
     element: <Game />,
   },
   {
-    path: '/gameover/:totalreward',
+    path: '/gameover',
     element: <GameOver />,
   },
 ]);

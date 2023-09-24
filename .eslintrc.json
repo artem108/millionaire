@@ -9,6 +9,7 @@
         "files": [ "src/**/*.ts[x]" ]
        }
     ],
+    "ignorePatterns": ["src/__test__"],
     "parserOptions": {
         "project": "./tsconfig.json"
     },
