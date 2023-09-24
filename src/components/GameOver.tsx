@@ -7,7 +7,7 @@ const GameOver = () => {
   const { totalReward } = useSelector((state: GeneralState) => state.quiz);
   return (
     <ContainerWithSubmitButton
-      mainText={`$${totalReward} earned`}
+      mainText={`$${totalReward || 0} earned`}
       subText="Total score"
       buttonText="Try again"
       route="/"

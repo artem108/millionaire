@@ -21,7 +21,7 @@
     {
         "id": 4,
         "question": "Who wrote the play 'Romeo and Juliet'?",
-        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+        "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Jane Austen1"],
         "answer": ["William Shakespeare"]
     },
     {
@@ -45,7 +45,7 @@
     {
         "id": 8,
         "question": "Who was the first person to set foot on the moon?",
-        "options": ["John F. Kennedy", "Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin"],
+        "options": ["John F. Kennedy", "Buzz Aldrin", "Neil Armstrong", "Joe Biden"],
         "answer": ["Neil Armstrong"]
     },
     {
