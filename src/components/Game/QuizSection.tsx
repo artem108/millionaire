@@ -1,8 +1,8 @@
 import React from 'react';
 import OptionButton from './OptionButton';
 
-const QuizSection = ({ question, chooseAnswerHandler }: any) => (
-  <div className="quizContainer">
+const QuizSection = ({ question, chooseAnswerHandler, showMobileMenu }: any) => (
+  <div className={`quizContainer ${showMobileMenu ? 'hideQuizMobile' : ''}`}>
     <div className="questionTextContainer">
       <span className="questionText">{question.question}</span>
     </div>

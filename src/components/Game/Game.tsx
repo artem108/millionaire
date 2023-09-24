@@ -1,14 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchQuestions } from '../../slice';
 import RevardsSection from './RewardsSection';
 import QuizSection from './QuizSection';
+import BurgerButton from './ BurgerButton';
 import { GeneralState } from '../../interfaces';
 import { getQuestionById } from '../../helpers';
 import './index.scss';
 
 const Game = () => {
+  const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
   const { id } = useParams();
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -29,6 +31,10 @@ const Game = () => {
     }
   };
 
+  const menuClickHandler = () => {
+    setShowMobileMenu((prevState) => !prevState);
+  };
+
   useEffect(() => {
     fetchQuestions()(dispatch);
   }, []);
@@ -41,11 +47,15 @@ const Game = () => {
           <QuizSection
             question={curretnQuestion}
             chooseAnswerHandler={chooseAnswerHandler}
+            showMobileMenu={showMobileMenu}
           />
-          text for test
           <RevardsSection
             rewards={rewards}
             currentReward={currentReward}
+            showMobileMenu={showMobileMenu}
+          />
+          <BurgerButton
+            menuClickHandler={menuClickHandler}
           />
         </div>
       )
