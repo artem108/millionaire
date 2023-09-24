@@ -12,7 +12,7 @@ const question = {
   question: 'What is the capital of France?',
   options: ['London', 'Berlin', 'Madrid', 'Paris'],
   answer: ['Paris'],
-}
+};
 
 // eslint-disable-next-line no-undef
 test('Should render question text', () => {
