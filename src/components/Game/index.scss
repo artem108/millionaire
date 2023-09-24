@@ -100,13 +100,26 @@
     .rewardsContainer {
         display: none;
     }
+    
     .gameContainer {
         .hideQuizMobile {
             display: none;
         }
+
         .showMobileRewards {
             width: 100%;
             display: block;
+        }
+
+        .quizContainer {
+            .optionButton {
+                width: 80%;
+                button {
+                    width: 65%;
+                    height: 70px;
+                    text-align: start;
+                }
+           }
         }
     }
 
@@ -126,8 +139,4 @@
     .quizContainer {
         width: 100%;
     }
-
-    .optionButton {
-        width: 80%;
-   }
 }
